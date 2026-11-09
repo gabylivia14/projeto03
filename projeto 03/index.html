@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Média</title>
+
+    <!-- Conectando o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Calculadora de Média</h1>
+
+        <p>Digite suas três notas abaixo:</p>
+
+        <form id="formulario">
+
+            <label>Primeira nota:</label>
+            <input type="number" id="nota1" min="0" max="10" step="0.1" required>
+
+            <label>Segunda nota:</label>
+            <input type="number" id="nota2" min="0" max="10" step="0.1" required>
+
+            <label>Terceira nota:</label>
+            <input type="number" id="nota3" min="0" max="10" step="0.1" required>
+
+            <button type="submit">
+                Calcular Média
+            </button>
+
+        </form>
+
+        <!-- Resultado será apresentado aqui -->
+        <div id="resultado">
+            Aguardando as notas...
+        </div>
+
+    </div>
+
+    <!-- Conectando JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
